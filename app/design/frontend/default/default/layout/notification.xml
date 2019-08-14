@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+   <default>
+        <!-- Mage_Customer -->
+        <reference name="head">
+             
+      			<action method="addJs"><script>jquery/jquery.min.js</script></action>
+      			<action method="addJs"><script>jquery/jquery_noconflict.js</script></action>
+      			<action method="addItem"><type>skin_js</type><name>notification/js/jquery.colorbox-min.js</name></action>
+      			<action method="addCss"><stylesheet>notification/css/gallery.css</stylesheet></action>
+      			<action method="addCss"><stylesheet>notification/css/colorbox.css</stylesheet></action>			
+      			<action method="addItem"><type>skin_css</type><name>css/colorbox_ie6.css</name><params/><if>lt IE 8</if></action>
+      			 
+        </reference>
+		 <reference name="header">
+            <block type="core/template" name="header.notificaiton" template="notification/notification.phtml"/>
+        </reference>
+		
+    </default> 
+</layout> 

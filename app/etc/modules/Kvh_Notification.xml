@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kvh_Notification>
+            <active>true</active>
+            <codePool>local</codePool> 
+        </Kvh_Notification>
+    </modules>
+</config> 
