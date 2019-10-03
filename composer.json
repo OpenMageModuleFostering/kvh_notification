@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Kvh_Notification",
+    "name": "openmage-module-fostering\/kvh_notification",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This is a Customer Popup notificaiton when he comes to your website",
     "authors": [
