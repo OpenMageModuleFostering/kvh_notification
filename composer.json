@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Kvh_Notification",
+    "name": "OpenMageModuleFostering\/Kvh_Notification",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "This is a Customer Popup notificaiton when he comes to your website",
     "authors": [
-    {
-        "name": "Hitesh Agrawal",
-        "email": "hiteshagrawal84@gmail.com"
-    }
-],
+        {
+            "name": "Hitesh Agrawal",
+            "email": "hiteshagrawal84@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
